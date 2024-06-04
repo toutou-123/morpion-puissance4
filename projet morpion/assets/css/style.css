@@ -1,0 +1,90 @@
+#affich {
+    border: solid 2px black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex: 1
+}
+
+.cell {
+    border: solid 2px black;
+    flex: 1
+}
+
+.symbol {
+    width: 150px;
+    height: 150px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #50a3a2;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+
+
+#info {
+    float: left;
+    width: 40%;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#annonce {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+
+button {
+    float: left;
+    background-color: #50a3a2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #418b83;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #418b83;
+}

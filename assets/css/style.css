@@ -1,0 +1,46 @@
+img {
+  width: 50%;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+#morpion,
+#connect {
+  padding: 20px;
+}
+
+#morpion img,
+#connect img {
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+#morpion img:hover,
+#connect img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 767.98px) {
+  .row {
+    flex-direction: column;
+  }
+
+  #morpion,
+  #connect {
+    margin: 20px auto;
+  }
+}
